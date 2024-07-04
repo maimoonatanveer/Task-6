@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE GALLERY</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    width: 200px;
+    }
+    .gallery .description{
+    padding: 10px;
+    text-align: center;
+    }
+    .gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+    }
+    .gallery img{
+    width: 100%;
+    height: auto;
+    }
+    </style>
+</head>
+<body>
+   <h1>IMAGE GALLERY</h1>
+    <div class="gallery">
+        <a target="_blank" href="images/salad.jpg">
+            <img src="https://www.eatingwell.com/thmb/rmLlvSjdnJCCy_7iqqj3x7XS72c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chopped-power-salad-with-chicken-0ad93f1931524a679c0f8854d74e6e57.jpg" alt="salad">
+        </a>
+        <div class="description">Salads</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/soup.jpg">
+            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/01/tomato-soup-recipe.jpg" alt="soup">
+        </a>
+        <div class="description">Soups</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/pizza.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zmjaYd_CB0llPIZ4qo82p6D6f6S4aerd3g&s" alt="pizza">
+        </a>
+        <div class="description">Pizzas</div>
+    </div>
+
+</body>
+</html>
